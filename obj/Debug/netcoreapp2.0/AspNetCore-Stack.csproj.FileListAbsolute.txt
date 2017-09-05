@@ -1,0 +1,11 @@
+/Users/ozgur/NetCoreProjects/AspNetCore-Stack/bin/Debug/netcoreapp2.0/AspNetCore-Stack.deps.json
+/Users/ozgur/NetCoreProjects/AspNetCore-Stack/bin/Debug/netcoreapp2.0/AspNetCore-Stack.runtimeconfig.json
+/Users/ozgur/NetCoreProjects/AspNetCore-Stack/bin/Debug/netcoreapp2.0/AspNetCore-Stack.runtimeconfig.dev.json
+/Users/ozgur/NetCoreProjects/AspNetCore-Stack/bin/Debug/netcoreapp2.0/AspNetCore-Stack.dll
+/Users/ozgur/NetCoreProjects/AspNetCore-Stack/bin/Debug/netcoreapp2.0/AspNetCore-Stack.pdb
+/Users/ozgur/NetCoreProjects/AspNetCore-Stack/obj/Debug/netcoreapp2.0/AspNetCore-Stack.csprojResolveAssemblyReference.cache
+/Users/ozgur/NetCoreProjects/AspNetCore-Stack/obj/Debug/netcoreapp2.0/AspNetCore-Stack.csproj.CoreCompileInputs.cache
+/Users/ozgur/NetCoreProjects/AspNetCore-Stack/obj/Debug/netcoreapp2.0/AspNetCore-Stack.AssemblyInfoInputs.cache
+/Users/ozgur/NetCoreProjects/AspNetCore-Stack/obj/Debug/netcoreapp2.0/AspNetCore-Stack.AssemblyInfo.cs
+/Users/ozgur/NetCoreProjects/AspNetCore-Stack/obj/Debug/netcoreapp2.0/AspNetCore-Stack.dll
+/Users/ozgur/NetCoreProjects/AspNetCore-Stack/obj/Debug/netcoreapp2.0/AspNetCore-Stack.pdb
