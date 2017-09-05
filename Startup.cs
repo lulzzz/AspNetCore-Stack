@@ -46,9 +46,6 @@ namespace AspNetCore_Stack
             app.UseMvc();
             app.UseCors("SiteCorsPolicy");
             
-            //app.UseWebSockets();
-            //app.UseSignalR();
-            
             DbInitializer.Init(appContext);
         }
     }
