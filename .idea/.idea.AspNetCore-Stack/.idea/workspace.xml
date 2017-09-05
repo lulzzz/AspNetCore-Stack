@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b3b78fe-9e41-4932-a1c7-15a66b0c28d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCore-Stack/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Constants.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controllers/Attributes/PasswordLength.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controllers/Attributes/ValidateModelAttribute.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controllers/UserController.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controllers/Views/ChangePasswordView.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controllers/Views/LoginView.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controllers/Views/RegisterView.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repositories/IRepository.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repositories/Repository.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Services/BaseService.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Services/UserService.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utils/StringUtils.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.0/AspNetCore-Stack.dll" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.0/AspNetCore-Stack.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.0/AspNetCore-Stack.pdb" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.0/AspNetCore-Stack.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.0/AspNetCore-Stack.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.0/AspNetCore-Stack.csproj.CoreCompileInputs.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.0/AspNetCore-Stack.dll" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.0/AspNetCore-Stack.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.0/AspNetCore-Stack.pdb" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.0/AspNetCore-Stack.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.AspNetCore-Stack/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.AspNetCore-Stack/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AspNetCore-Stack.csproj" afterPath="$PROJECT_DIR$/AspNetCore-Stack.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Services/UserService.cs" afterPath="$PROJECT_DIR$/Services/UserService.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChangePasswordView.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChangePasswordView.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/Views/ChangePasswordView.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -79,6 +60,33 @@
                 <marker date="1504609313000" expanded="true" signature="6:91" ph="..." />
                 <marker date="1504609313000" expanded="true" signature="137:379" ph="{...}" />
                 <marker date="1504609313000" expanded="true" signature="175:377" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Services/UserService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+              <folding>
+                <marker date="1504627893000" expanded="false" signature="6:113" ph="..." />
+                <marker date="1504627893000" expanded="true" signature="150:2383" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="195:2381" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="298:375" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="449:829" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="503:595" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="641:729" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="900:1141" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="999:1094" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="1218:1335" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="1399:1496" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="1541:1839" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="1602:1707" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="1928:1997" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="2090:2375" ph="{...}" />
+                <marker date="1504627893000" expanded="true" signature="2194:2284" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -192,11 +200,11 @@
         <option value="$PROJECT_DIR$/Repositories/Repository.cs" />
         <option value="$PROJECT_DIR$/Utils/StringUtils.cs" />
         <option value="$PROJECT_DIR$/Controllers/Views/SetPasswordView.cs" />
-        <option value="$PROJECT_DIR$/Services/UserService.cs" />
         <option value="$PROJECT_DIR$/Controllers/UserController.cs" />
         <option value="$PROJECT_DIR$/Controllers/Views/RegisterView.cs" />
         <option value="$PROJECT_DIR$/Controllers/Views/LoginView.cs" />
         <option value="$PROJECT_DIR$/Controllers/Views/ChangePasswordView.cs" />
+        <option value="$PROJECT_DIR$/Services/UserService.cs" />
       </list>
     </option>
   </component>
@@ -279,24 +287,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Services" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AspNetCore-Stack (1 project)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AspNetCore-Stack" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repositories" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -505,12 +495,12 @@
       <option name="presentableId" value="Default" />
       <updated>1504607260301</updated>
       <workItem from="1504607263672" duration="42000" />
-      <workItem from="1504607352623" duration="2042000" />
+      <workItem from="1504607352623" duration="2205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2084000" />
+    <option name="totallyTimeSpent" value="2247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -989,31 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Services/UserService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="80" column="33" lean-forward="false" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
-          <folding>
-            <marker date="1504608882000" expanded="true" signature="6:113" ph="..." />
-            <marker date="1504608882000" expanded="true" signature="150:2355" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="195:2353" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="298:375" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="449:829" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="503:595" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="641:729" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="900:1141" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="999:1094" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="1218:1335" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="1399:1496" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="1541:1839" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="1602:1707" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="1900:1969" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="2062:2347" ph="{...}" />
-            <marker date="1504608882000" expanded="true" signature="2166:2256" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Entities/User.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1134,6 +1099,31 @@
             <marker date="1504609313000" expanded="true" signature="6:91" ph="..." />
             <marker date="1504609313000" expanded="true" signature="137:379" ph="{...}" />
             <marker date="1504609313000" expanded="true" signature="175:377" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Services/UserService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+          <folding>
+            <marker date="1504627893000" expanded="false" signature="6:113" ph="..." />
+            <marker date="1504627893000" expanded="true" signature="150:2383" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="195:2381" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="298:375" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="449:829" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="503:595" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="641:729" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="900:1141" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="999:1094" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="1218:1335" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="1399:1496" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="1541:1839" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="1602:1707" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="1928:1997" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="2090:2375" ph="{...}" />
+            <marker date="1504627893000" expanded="true" signature="2194:2284" ph="{...}" />
           </folding>
         </state>
       </provider>

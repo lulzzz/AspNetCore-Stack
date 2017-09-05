@@ -69,6 +69,7 @@ namespace AspNetCore_Stack.Services
             return token.TokenValue;
         }
 
+        // not used for now
         private static string HashPassword(string password)
         {
             return StringUtils.Sha256(password);
