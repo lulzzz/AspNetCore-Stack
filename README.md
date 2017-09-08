@@ -2,6 +2,6 @@
 
 Used Mysql as database, but you can use MsSql too. Token based authentication. Endpoints:
 
-* `POST /Login` Send Username & Password as body
-* `POST /Register` Send Username & Password as body
+* `POST /Login` Send Username & Password as body, returns token string
+* `POST /Register` Send Username & Password as body, returns token string
 * `POST /ChangePassword` Send Password & OldPassword as body
