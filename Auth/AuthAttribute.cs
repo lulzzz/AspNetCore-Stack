@@ -19,11 +19,6 @@ namespace AspNetCore_Stack.Auth
         
         public override void OnActionExecuting(ActionExecutingContext context)
         {
-            if (_routeRole == null)
-            {
-                base.OnActionExecuting(context);
-                return;
-            }
             
             var user = context.HttpContext.Items["user"] as User;
 
@@ -35,6 +30,13 @@ namespace AspNetCore_Stack.Auth
             }
             
             var authorized = false;
+            
+            if (_routeRole == null)
+            {
+                base.OnActionExecuting(context);
+                return;
+            }
+            
 
             var userRole = user.Role?.RoleName;
 
